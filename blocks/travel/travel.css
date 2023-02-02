@@ -1,0 +1,13 @@
+.travel {
+	padding: 0 148px;
+}
+@media screen and (max-width: 1279px) {
+	.travel {
+		padding: 0 48px;
+	}
+}
+@media screen and (max-width: 1023px) {
+	.travel {
+		padding: 0;
+	}
+}
