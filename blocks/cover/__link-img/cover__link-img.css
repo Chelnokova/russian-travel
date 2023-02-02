@@ -25,6 +25,11 @@
 }
 @media screen and (max-width: 767px) {
 	.cover__link-img {
+		min-height: 340px;
+	}
+}
+@media screen and (max-width: 543px) {
+	.cover__link-img {
 		min-height: 200px;
 	}
 }
