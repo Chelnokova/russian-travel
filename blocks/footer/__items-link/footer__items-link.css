@@ -1,0 +1,10 @@
+.footer__items-link {
+	display: flex;
+	column-gap: 18px;
+}
+@media screen and (max-width: 767px) {
+	.footer__items-link {
+		flex-direction: column;
+		row-gap: 32px;
+	}
+}

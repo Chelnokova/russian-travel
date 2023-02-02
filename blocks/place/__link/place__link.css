@@ -1,0 +1,11 @@
+.place__link {
+	align-self: end;
+	display: flex;
+	flex-direction: column;
+	row-gap: 12px;
+}
+@media screen and (max-width: 767px) {
+	.place__link {
+		align-self: flex-start;
+	}
+}
