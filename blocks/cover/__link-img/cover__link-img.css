@@ -26,6 +26,7 @@
 @media screen and (max-width: 767px) {
 	.cover__link-img {
 		min-height: 340px;
+		row-gap: 16px;
 	}
 }
 @media screen and (max-width: 543px) {
@@ -35,7 +36,7 @@
 }
 
 .cover__link-img:hover {
-	box-shadow:0 0 0 400px rgba(0, 0, 0, 0.6) inset;
+	box-shadow:0 0 0 400px rgba(42, 44, 47, 0.8) inset;
 }
 
 .cover__link-img::before {
